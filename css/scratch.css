@@ -1,0 +1,42 @@
+body{
+    background-image: url('https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+img{
+    border: 2px solid black;
+    padding: 2px;
+    width: 40%;
+}
+.centerme{
+    display: block;
+    margin: auto;
+}
+h1{
+    display: block;
+    margin: auto;
+    font-family: 'Comic Sans MS', Georgia, 'Times New Roman', Times, serif;
+}
+ol{
+    background-color: rgba(0, 0, 0, 0.72);
+}
+.common{
+    position: absolute;
+}
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: blue;
+    color: azure;
+}
+.header{
+    top: 0px;
+}
+.mainbody{
+    top: 400px;
+}

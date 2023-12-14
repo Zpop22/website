@@ -1,0 +1,20 @@
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.darkcolor{
+    background-color: navy !important;
+}
+.list-img{
+    margin-bottom: 15px;
+    margin-right: 7px;
+    width: 40px;
+}
+
+.hrEDITED {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 3px solid;
+    opacity: 0.50;
+    width: 40%;
+  }
