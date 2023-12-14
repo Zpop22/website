@@ -1,12 +1,12 @@
 body{
-    background-image: url('https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../assets/img/large-triangles-background.png');
+    background-repeat: repeat;
     background-size: cover;
     color: aliceblue;
 }
 img{
     border: 2px solid black;
-    padding: 2px;
+    padding: 1px;
     width: 40%;
 }
 .centerme{
@@ -16,13 +16,24 @@ img{
 h1{
     display: block;
     margin: auto;
+    font-size: x-large;
     font-family: 'Comic Sans MS', Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    display: block;
+    margin: auto;
+    font-size: large;
+}
+h3{
+    display: block;
+    font-size: 500%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 ol{
     background-color: rgba(0, 0, 0, 0.72);
-}
-.common{
-    position: absolute;
+    padding-right: 15px;
 }
 .footer{
     z-index: 1;
@@ -31,12 +42,34 @@ ol{
     right: 0px;
     left: 0px;
     text-align: center;
-    background-color: blue;
+    background-color: gray;
     color: azure;
 }
 .header{
-    top: 0px;
+    top: 0;
+    background-color: white;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.ul2{
+    background-color: rgba(0, 0, 0, 0.72);
+    padding-right: 15px;
 }
 .mainbody{
     top: 400px;
+}
+.together{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+a{
+    font-size: large;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aextra{
+    text-decoration: none;
+    font-size: x-large;
 }
